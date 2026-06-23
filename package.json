@@ -1,0 +1,43 @@
+{
+  "name": "asset-gen-cli",
+  "version": "1.0.0",
+  "description": "Generate TypeScript asset index files from image directories",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "asset-gen": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepare": "tsup",
+    "dev": "tsup --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "cli",
+    "assets",
+    "typescript",
+    "codegen",
+    "images"
+  ],
+  "author": "wlgn829@kakao.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.5.2",
+    "change-case": "5.4.4",
+    "commander": "12.1.0",
+    "fast-glob": "3.3.3",
+    "prettier": "3.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}
