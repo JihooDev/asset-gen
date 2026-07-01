@@ -1,6 +1,6 @@
 {
   "name": "asset-gen-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate TypeScript asset index files from image directories",
   "type": "module",
   "main": "dist/index.js",
