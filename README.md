@@ -1,5 +1,8 @@
 # asset-gen
 
+[![npm version](https://img.shields.io/npm/v/asset-gen-cli.svg)](https://www.npmjs.com/package/asset-gen-cli)
+[![license](https://img.shields.io/npm/l/asset-gen-cli.svg)](https://www.npmjs.com/package/asset-gen-cli)
+
 <details open>
 <summary>English</summary>
 
